@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const productURL = "/api/products";
+const productURL = "https://mern-ecommerce-fullstack.herokuapp.com/api/products";
 const addProductURL = "/api/products/add_new_product";
 const placeOrderURL = "/api/orders/place_order";
 const orderURL ="/api/orders/get_all_orders"
