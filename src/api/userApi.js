@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const registerUrl = "http://localhost:5000/api/user/register";
-const loginUrl = "http://localhost:5000/api/user/login"
-const updateUrl = "http://localhost:5000/api/user/update"
-const getUsersUrl = "http://localhost:5000/api/user/get_all_users"
-const deleteUrl = "http://localhost:5000/api/user/delete/"
+const registerUrl = "/api/user/register";
+const loginUrl = "/api/user/login"
+const updateUrl = "/api/user/update"
+const getUsersUrl = "/api/user/get_all_users"
+const deleteUrl = "/api/user/delete/"
 
 
 
