@@ -1,0 +1,7 @@
+.product-img{
+    object-fit:contain;
+    height: 300px;
+}
+.card-height{
+    text-align: left;
+}

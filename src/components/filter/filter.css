@@ -1,0 +1,12 @@
+.input-style{
+    border: none;
+    background-color: rgb(238, 228, 228);
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+}
+
+.input-style>input:focus{
+    border: 1px solid dimgray;
+    outline: none;
+}

@@ -1,0 +1,16 @@
+.product-img{
+    object-fit:contain;
+    height: 300px;
+}
+.card-height{
+    text-align: left;
+}
+.link{
+    text-decoration: none;
+}
+.loading{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}

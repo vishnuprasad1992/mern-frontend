@@ -1,0 +1,16 @@
+.register{
+  background-color: rgb(23, 206, 127);
+  min-height: 100vh;
+}
+.heading-color{
+    color: darkblue;
+}
+.beautify{
+    padding: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -2px -1px 11px 0px rgba(170,152,152,0.78);
+    -webkit-box-shadow: -2px -1px 11px 0px rgba(170,152,152,0.78);
+    -moz-box-shadow: -2px -1px 11px 0px rgba(170,152,152,0.78);
+}
+

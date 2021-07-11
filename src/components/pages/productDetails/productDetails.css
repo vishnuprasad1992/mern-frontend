@@ -1,0 +1,10 @@
+.details{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.image >img{
+    object-fit:contain;
+    height: 300px;
+    width: 100%;
+}

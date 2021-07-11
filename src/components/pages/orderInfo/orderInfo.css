@@ -1,0 +1,11 @@
+.get-justified{
+    display: flex;
+    justify-content: center;
+}
+.shipping-right{
+    display: flex;
+    justify-content: space-between;
+}
+.order-info{
+    min-height: 100vh;
+}

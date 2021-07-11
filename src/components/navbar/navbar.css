@@ -1,0 +1,28 @@
+.navbar-bg{
+    background-color: darkslategray;
+}
+.navbar-brand,.nav-link{
+    color: white !important;
+}
+.dropdown-toggle{
+    border: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.brand-style{
+    font-style: italic;
+    font-weight: bold;
+    font-size :x-large;
+}
+.cart-style{
+    font-size: large;
+}
+.cart-numbers{
+    color: black;
+    font-weight: bold;
+}
+.existing-user{
+    background-color: transparent !important;
+    border: none;
+}
