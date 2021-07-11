@@ -1,14 +1,14 @@
 import axios from 'axios';
 
 const productURL = "https://mern-ecommerce-fullstack.herokuapp.com/api/products";
-const addProductURL = "/api/products/add_new_product";
-const placeOrderURL = "/api/orders/place_order";
-const orderURL ="/api/orders/get_all_orders"
-const singleOrderURL ="/api/orders/get_single_order"
-const addReviewURL = "/api/products/add_reviews"
-const deleteProductUrl = "/api/products/delete/"
-const updateProductUrl = "/api/products/update/"
-const allOrderURL ="/api/orders/all_orders"
+const addProductURL = "https://mern-ecommerce-fullstack.herokuapp.com/api/products/add_new_product";
+const placeOrderURL = "https://mern-ecommerce-fullstack.herokuapp.com/api/orders/place_order";
+const orderURL ="https://mern-ecommerce-fullstack.herokuapp.com/api/orders/get_all_orders"
+const singleOrderURL ="https://mern-ecommerce-fullstack.herokuapp.com/api/orders/get_single_order"
+const addReviewURL = "https://mern-ecommerce-fullstack.herokuapp.com/api/products/add_reviews"
+const deleteProductUrl = "https://mern-ecommerce-fullstack.herokuapp.com/api/products/delete/"
+const updateProductUrl = "https://mern-ecommerce-fullstack.herokuapp.com/api/products/update/"
+const allOrderURL ="https://mern-ecommerce-fullstack.herokuapp.com/api/orders/all_orders"
 
 
 
