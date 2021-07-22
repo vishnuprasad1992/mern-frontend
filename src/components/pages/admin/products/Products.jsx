@@ -27,8 +27,8 @@ const Products = () => {
                     {error && <div className="alert alert-danger text-center">{error}</div>}
                     {deleteError && <div className="alert alert-danger text-center">{deleteError}</div>}
                     {message && <div className="alert alert-danger text-center">{message}</div>}
-
-                    <table className="table my-3 table-bordered table-hover table-striped table-responsive">
+                    <div class="table-responsive">
+                    <table className="table my-3 table-bordered table-hover table-striped">
                         <thead >
                             <tr className="text-center bg-warning">
                                 <th> Product Id </th>
@@ -64,6 +64,7 @@ const Products = () => {
                             }
                         </tbody>
                     </table>
+                    </div>
                 </div>
             </div>
         </div>
