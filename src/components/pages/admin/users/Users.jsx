@@ -26,7 +26,8 @@ return (
                 {message && <div className="alert alert-success text-center">{message}</div>}
                 {deleteError && <div className="alert alert-danger text-center">{deleteError}</div>}
                 {error && <div className="alert alert-danger text-center">{error}</div>}
-                <table className="table my-3 table-bordered table-hover table-striped">
+                <div class="table-responsive">
+                 <table className="table my-3 table-bordered table-hover table-striped">
                     <thead >
                         <tr className="text-center bg-warning">
                             <th scope="col"> User Id </th>
@@ -55,6 +56,7 @@ return (
                         }
                     </tbody>
                 </table>
+                </div>
             </div>
         </div>
     </div>
