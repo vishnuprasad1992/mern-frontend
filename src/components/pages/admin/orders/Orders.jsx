@@ -16,7 +16,8 @@ const Orders = () => {
                 <h1 className="text-center mt-5">All Orders</h1>
                 <div className="col-md-12  col-lg-10">
                     {allIsLoading && <div className="text-center" > <i className="fas ms-2  fa-spinner fa-3x fa-spin"></i></div>}
-                    <table className="table my-3 table-bordered table-hover table-striped table-responsive">
+                    <div class="table-responsive">
+                    <table className="table my-3 table-bordered table-hover table-striped">
                         <thead >
                             <tr className="text-center bg-warning">
                                 <th> Order ID</th>
@@ -44,6 +45,7 @@ const Orders = () => {
                             }
                         </tbody>
                     </table>
+                    </div>
                 </div>
             </div>
         </div>
