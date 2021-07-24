@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const registerUrl = "/api/user/register";
-const loginUrl = "/api/user/login"
-const updateUrl = "/api/user/update"
-const getUsersUrl = "/api/user/get_all_users"
-const deleteUrl = "/api/user/delete/"
+const registerUrl = "https://mern-ecommerce-fullstack.herokuapp.com/api/user/register";
+const loginUrl = "https://mern-ecommerce-fullstack.herokuapp.com/api/user/login"
+const updateUrl = "https://mern-ecommerce-fullstack.herokuapp.com/api/user/update"
+const getUsersUrl = "https://mern-ecommerce-fullstack.herokuapp.com/api/user/get_all_users"
+const deleteUrl = "https://mern-ecommerce-fullstack.herokuapp.com/api/user/delete/"
 
 
 
